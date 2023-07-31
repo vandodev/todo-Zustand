@@ -13,6 +13,7 @@ export function AddTodo() {
           newTodo,
         }))
         
+        setNewTodo('')
         console.log(newTodo);
       }
       
